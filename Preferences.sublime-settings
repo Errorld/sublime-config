@@ -1,0 +1,70 @@
+{
+    //eh
+	"always_show_minimap_viewport": true,
+	"auto_complete_commit_on_tab": false,
+	"auto_find_in_selection": true,
+	"bold_folder_labels": true,
+	"default_line_ending": "unix",
+	"detect_indentation": false,
+	"detect_slow_plugins": false,
+	"drag_text": false,
+	"draw_white_space": "selection",
+	"ensure_newline_at_eof_on_save": true,
+	"fallback_encoding": "UTF-8",
+	"font_size": 16,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+
+    //omit
+	"ignored_packages":
+	[
+		"Vintage",
+
+		"Markdown"
+	],
+    "folder_exclude_patterns":
+    [
+        ".git",
+        "log",
+                "node_modules",
+        "tmp/cache",
+        ".vagrant"
+    ],
+
+    //text format
+	"indent_guide_options":
+	[
+		"draw_active",
+		"draw_normal"
+	],
+	"indent_to_bracket": true,
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"preview_on_click": false,
+	"rulers":
+	[
+		120
+	],
+	"scroll_past_end": true,
+	"shift_tab_unindent": true,
+	"show_encoding": true,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+
+    //Vintageous
+	"vintageous_autoindent": true,
+	"vintageous_enable_cmdline_mode": true,
+	"vintageous_hlsearch": true,
+	"vintageous_ignorecase": true,
+	"vintageous_incsearch": true,
+	"vintageous_log_level": "error",
+	"vintageous_magic": true,
+	"vintageous_reset_mode_when_switching_tabs": true,
+	"vintageous_use_ctrl_keys": false,
+	"vintageous_use_sys_clipboard": false,
+	"vintageous_verbose": false,
+	"word_wrap": true,
+	"wrap_width": 120
+}
