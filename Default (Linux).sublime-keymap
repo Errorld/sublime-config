@@ -1,3 +1,9 @@
 [
+    // use 'jj' to exit insert mode
     { "keys": ["j", "j"], "command": "_enter_normal_mode", "args": {"mode": "mode_insert"}, "context": [{"key": "vi_insert_mode_aware"}] },
+    // use 'alt+space' to complete, as result of 'ctrl+space' occupied
+    { "keys": ["alt+space"], "command": "auto_complete" },
+    // use 'shift+tab' to reindent, 'ctrl+[' will work the original function
+    { "keys": ["shift+tab"], "command": "reindent" , "args": { "single_line": false } },
 ]
+
