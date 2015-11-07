@@ -1,6 +1,8 @@
-#sublime3 package control:https://packagecontrol.io/installation#st3
+# sublime3 package control:
+# https://packagecontrol.io/installation#st3
 
 .DS_Store
+
 Package\ Control.cache
 Package\ Control.last-run
 Package\ Control.merged-ca-bundle
@@ -8,4 +10,6 @@ Package\ Control.user-ca-bundle
 Package\ Control.system-ca-bundle
 encoding_cache.json
 PythonTestRunner.last-run
-*/
+
+*/  # omit all document except:
+!snippets
