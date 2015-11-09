@@ -1,9 +1,9 @@
 {
-    //eh
 	"always_show_minimap_viewport": true,
 	"auto_complete_commit_on_tab": false,
 	"auto_find_in_selection": true,
 	"bold_folder_labels": true,
+	"color_scheme": "Packages/MarkdownLight/MarkdownDark.tmTheme",
 	"default_line_ending": "unix",
 	"detect_indentation": false,
 	"detect_slow_plugins": false,
@@ -11,27 +11,21 @@
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
 	"fallback_encoding": "UTF-8",
+	"folder_exclude_patterns":
+	[
+		".git",
+		"log",
+		"node_modules",
+		"tmp/cache",
+		".vagrant"
+	],
 	"font_size": 16,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
-
-    //omit
 	"ignored_packages":
 	[
-		"Vintage",
-
-		"Markdown"
+		"Vintage"
 	],
-    "folder_exclude_patterns":
-    [
-        ".git",
-        "log",
-                "node_modules",
-        "tmp/cache",
-        ".vagrant"
-    ],
-
-    //text format
 	"indent_guide_options":
 	[
 		"draw_active",
@@ -52,8 +46,6 @@
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
-
-    //Vintageous
 	"vintageous_autoindent": true,
 	"vintageous_enable_cmdline_mode": true,
 	"vintageous_hlsearch": true,

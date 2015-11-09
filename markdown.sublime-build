@@ -1,0 +1,5 @@
+{
+    "cmd": ["copy", "$file", "c:\\test.md"],
+
+    "cmd": ["C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe", "$file"]
+}
