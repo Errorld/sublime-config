@@ -3,7 +3,7 @@
 	"auto_complete_commit_on_tab": false,
 	"auto_find_in_selection": true,
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/MarkdownLight/MarkdownDark.tmTheme",
+	"color_scheme": "Packages/Theme - Glacier/glacier.tmTheme",
 	"default_line_ending": "unix",
 	"detect_indentation": false,
 	"detect_slow_plugins": false,
