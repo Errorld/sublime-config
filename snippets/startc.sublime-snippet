@@ -10,5 +10,5 @@ int main(int argc, char* argv[])
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>startc</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <!-- <scope>source.python</scope> -->
+    <scope>source.c,source.c++</scope>
 </snippet>
